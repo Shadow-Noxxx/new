@@ -13,7 +13,7 @@ class Config(object):
     LOGGER = True
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
-
+    ALLOW_CHATS = True
     API_ID = 23212132  # integer value, dont use ""
     API_HASH = "1c17efa86bdef8f806ed70e81b473c20"
     TOKEN = "7847667702:AAHgL2ILmtZ6Dh51kNP6zUOknqglRpapnQ0"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
