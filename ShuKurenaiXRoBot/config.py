@@ -26,6 +26,7 @@ class Config(object):
     EVENT_LOGS = (
         -1002620872464
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    MONGO_DB_URI = "mongodb+srv://TEAMBABY01:UTTAMRATHORE09@cluster0.vmjl9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "mongodb+srv://TEAMBABY01:UTTAMRATHORE09@cluster0.vmjl9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  # needed for any database modules
